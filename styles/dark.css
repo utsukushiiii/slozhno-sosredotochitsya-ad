@@ -1,16 +1,17 @@
-.page.theme_dark {
+html.theme-dark .page {
   --title-color: #DB00FF;
   --text-color: #F1B2CE;
   --sub-text-color: #000028;
   --accent-color: #ff0070;
-  --btn-color:#ff0070;
-  --backgroung-image: url(../images/cover-image-dark.png);
+  --btn-color: #ff0070;
+  --header-background-image: url(../images/cover-image-dark.png);
+  --page-background-color: #000028;
 }
 
-.theme_dark .decorative__element {
+.theme-dark .decorative__element {
   display: flex;
 }
 
-.theme_dark .header__theme-menu-button:hover {
+.theme-dark .header__theme-menu-button:hover {
   border: 1px solid rgba(255, 0, 112, 0.40);
 }
